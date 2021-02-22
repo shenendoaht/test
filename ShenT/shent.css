@@ -1,0 +1,18 @@
+h1 {
+    font-size: 34px;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    background-color: navy;
+    padding: 20px;
+}
+
+.shen {
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: purple;
+}

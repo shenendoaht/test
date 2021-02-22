@@ -1,0 +1,54 @@
+* {  
+	vertical-align: baseline;  
+	font-family: inherit;  
+	font-style: inherit;  
+	font-size: 100%;  
+	border: none;  
+	padding: 0;  
+	margin: 0;  
+	}  
+body {  
+	padding: 5px;  
+	}  
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {  
+	margin: 20px 0;  
+	}  
+li, dd, blockquote {  
+	margin-left: 40px;  
+	}  
+table {  
+	border-collapse: collapse;  
+	border-spacing: 0;  
+	}
+header {
+    background-color: navy;
+    color: whitesmoke;
+    text-align: center;
+    padding: 25%
+    width auto;
+    }
+main {
+    background-color: saddlebrown;
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+}
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+h4 {
+    margin-left: 35px;
+}
+
+footer {
+    background-color: steelblue;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+body {
+    background-color: black;
+}
