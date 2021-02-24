@@ -8,47 +8,106 @@
 	margin: 0;  
 	}  
 body {  
-	padding: 5px;  
+	padding: 5px;
+    background-image: url(Lambs_Farm_Gedling.jpg);
+    background-size: cover;
+    background-attachment: fixed;  
 	}  
-h1, h2, h3, h4, h5, h6, p, pre, blockquote, form, ul, ol, dl {  
-	margin: 20px 0;  
+blockquote, form, ul, ol, dl {  
+	margin: 20px 0; 
+    text-align: left; 
 	}  
 li, dd, blockquote {  
-	margin-left: 40px;  
+	margin: 40px;
+    padding-left: 40px;  
 	}  
 table {  
 	border-collapse: collapse;  
 	border-spacing: 0;  
 	}
 header {
-    background-color: navy;
+    background-color: #63695c85;
     color: whitesmoke;
     text-align: center;
-    padding: 25%
-    width auto;
+    width: auto;
     }
 main {
-    background-color: saddlebrown;
+    background: #3a3a3a4f;
     text-align: center;
 }
 h1 {
-    font-size: 40px;
+    font-size: 30px;
 }
 h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
+    font-size: 28px;
+    color: rgba(44, 115, 104, 0.846);
 }
 
 h4 {
-    margin-left: 35px;
+    margin: 10px auto;
+    padding: 10px;
+    color: white;
+    max-width: 500px;
+}
+
+h4:hover {
+    font-size: larger;
+}
+
+p {
+    color: #fff;
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+p:hover {
+    font-size: larger;
+}
+
+summary {
+    display: inline-block;
 }
 
 footer {
-    background-color: steelblue;
+    background-color: #9db0bf70;
     text-align: center;
     font-size: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px auto 0px auto;
 }
-body {
-    background-color: black;
+
+.sources {
+    background: rgba(0, 0, 139, 0.052);
+    color: white;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.quote {
+    background: #3a3a3a4f;
+    color: white;
+    margin: 0 auto;
+}
+main {
+    background: #3a3a3a4f;
+    margin: 10px auto;
+}
+a {
+    color: white;
+    
+}
+a:hover {
+    color: rgb(60, 224, 249);
+}
+
+li:hover {
+    font-size: larger;
+}
+figcaption {
+    color: #fff;
 }
